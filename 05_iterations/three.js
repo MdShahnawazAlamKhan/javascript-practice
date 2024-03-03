@@ -56,11 +56,11 @@
 
 // Maps
 
-const map = new Map()
-map.set('IN', "India")
-map.set('USA', "United States of America")
-map.set('Fr', "France")
-map.set('IN', "India")
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+// map.set('IN', "India")
 // console.log(map);
 
 // for (const key of map) {
@@ -71,25 +71,11 @@ map.set('IN', "India")
 //     console.log(key,":-",value);
 // }
 
-// const myObject = {
-//     'game1': 'NFS',
-//     'game2': 'Spiderman'
-// }
+const myObject = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
 
-// for (const [key,value] of myObject) {
-//      console.log(key,":-",value)   
-// }
-
-// const myObject = {
-//     js:'javaScript',
-//     cpp:'C++',
-//     rb:'ruby',
-//     swift:'swift by apple'
-// }
-
-// for (const key in object) {
-//     if (Object.hasOwnProperty.call(object, key)) {
-//         const element = object[key];
-        
-//     }
-// }
+for (const [key,value] of myObject) {
+     console.log(key,":-",value)   
+}
