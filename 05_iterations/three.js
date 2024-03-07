@@ -1,17 +1,13 @@
-// // for of
-
-// // ["", "", ""]
-// // [{}, {}, {}]
-
-// const arr = [1, 2, 3, 4, 5]
-
-// for (const num of arr) {
-//     //console.log(num);
+// const arr = [1,2,3,4,5,]
+//..............................for of loop on an array...............................
+// for (const x of arr) {
+//     console.log(x);
 // }
 
-// const greetings = "Hello world!"
-// for (const greet of greetings) {
-//     //console.log(`Each char is ${greet}`)
+//-------------------------------for of loop on a string-------------------------------------
+// const greetings = "Hello World!"
+// for (const i of greetings) {
+//     console.log(`Each character is: ${i}`);
 // }
 
 // // Maps
@@ -23,21 +19,25 @@
 // map.set('IN', "India")
 
 
-// // console.log(map);
+// console.log(map);
+
+//--------------------------------for of loop on map----------------------
 
 // for (const [key, value] of map) {
-//     // console.log(key, ':-', value);
+//      console.log(key, ':-', value);
 // }
 
-// const myObject = {
-//     game1: 'NFS',
-//     game2: 'Spiderman'
-// }
+const myObject = {
+    game1: 'NFS',
+    game2: 'Spiderman'
+}
 
-// // for (const [key, value] of myObject) {
-// //     console.log(key, ':-', value);
-    
-// // }
+// ------------------------------ for of loop on Objects------------------------
+// In the below case, for of loop does not work for objects
+// There are other ways to iterate Objects
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value);
+// }
 
 // const arr = [1,2,3,4,5]
 
@@ -71,11 +71,11 @@
 //     console.log(key,":-",value);
 // }
 
-const myObject = {
-    'game1': 'NFS',
-    'game2': 'Spiderman'
-}
+// const myObject = {
+//     'game1': 'NFS',
+//     'game2': 'Spiderman'
+// }
 
-for (const [key,value] of myObject) {
-     console.log(key,":-",value)   
-}
+// for (const [key,value] of myObject) {
+//      console.log(key,":-",value)   
+// }
