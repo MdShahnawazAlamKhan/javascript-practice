@@ -38,5 +38,5 @@ const myCoding=[      // most common way to store data in DB, so must to learn i
 ]
 
 myCoding.forEach((item)=>{
-    console.log(item.languageName);
+     console.log(item.languageName);
 })
